@@ -1,0 +1,18 @@
+.pokemon {
+    display: inline-block;
+    width: 100px;
+    padding: 10px;
+}
+
+.pokemon img {
+    margin: auto;
+    display: block;
+}
+
+.pokemon p {
+    font-size: 14px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #666;
+    text-transform: capitalize;
+}
