@@ -3,7 +3,7 @@ import React, { PropTypes } from 'react';
 const Pokemon = ({ name, gen, label }) => (
     <div className="pokemon">
         <img
-            src={`http://www.pokestadium.com/sprites/${gen}/${name}${(gen === 'xy') ? '.gif' : '.png'}`}
+            src={`http://www.pokestadium.com/sprites/${gen}/${name}.${(gen === 'xy') ? 'gif' : 'png'}`}
             alt={name}
         />
         {label &&

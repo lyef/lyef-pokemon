@@ -16,7 +16,7 @@ var Pokemon = function Pokemon(_ref) {
         'div',
         { className: 'pokemon' },
         _react2['default'].createElement('img', {
-            src: 'http://www.pokestadium.com/sprites/' + String(gen) + '/' + String(name) + (gen === 'xy' ? '.gif' : '.png'),
+            src: 'http://www.pokestadium.com/sprites/' + String(gen) + '/' + String(name) + '.' + (gen === 'xy' ? 'gif' : 'png'),
             alt: name
         }),
         label && _react2['default'].createElement(
