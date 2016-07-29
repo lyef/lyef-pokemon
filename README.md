@@ -2,6 +2,9 @@
 [![Build Status](https://travis-ci.org/lyef/lyef-pokemon.svg?branch=master)](https://travis-ci.org/lyef/lyef-pokemon)
 ![Badge size](https://badge-size.herokuapp.com/lyef/lyef-pokemon/master/dist/Main.min.js.svg)
 ![Badge gzip size](https://badge-size.herokuapp.com/lyef/lyef-pokemon/master/dist/Main.min.js.svg?compression=gzip)
+[![NPM version](https://badge-me.herokuapp.com/api/npm/lyef-pokemon.png)](http://badges.enytc.com/for/npm/lyef-pokemon)
+
+![Pokemons](pokemons.gif)
 
 > A react component show any pokemon from different generations.
 
