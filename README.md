@@ -6,7 +6,7 @@
 
 ![Pokemons](pokemons.gif)
 
-> A react component show any pokemon from different generations.
+> A react component to show any pokemon from different generations.
 
 ## Demo
 

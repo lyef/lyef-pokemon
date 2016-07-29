@@ -1,7 +1,7 @@
 {
   "name": "lyef-pokemon",
   "version": "1.0.1",
-  "description": "A react component show any pokemon from different generations.",
+  "description": "A react component to show any pokemon from different generations.",
   "main": "dist/Main.js",
   "scripts": {
     "build": "npm run clean && npm run babel && npm run minify",
