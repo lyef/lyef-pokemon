@@ -3,6 +3,8 @@
 ![Badge size](https://badge-size.herokuapp.com/lyef/lyef-pokemon/master/dist/Main.min.js.svg)
 ![Badge gzip size](https://badge-size.herokuapp.com/lyef/lyef-pokemon/master/dist/Main.min.js.svg?compression=gzip)
 
+> A react component show any pokemon from different generations.
+
 ## Demo
 
 [Live examples](https://lyef.github.io/lyef-pokemon)
@@ -18,12 +20,12 @@ $ npm install --save lyef-pokemon
 ## Basic Usage
 
 ```jsx
-import lyefPokemon from 'lyef-pokemon';
+import Pokemon from 'lyef-pokemon';
 
 ...
 render() {
     return (
-        <lyefPokemon />
+        <Pokemon name="pikachu" gen="black-white" label />
     );
 }
 ...
@@ -31,9 +33,9 @@ render() {
 
 ## Props
 
-- `prop` (type) - description
-- `prop` (type) - description
-- `prop` (type) - description
+- `name` (string) - pokemon name - *required*
+- `gen` (string) - generation ['xy', 'black-white', 'diamond-pearl', 'emerald', 'silver', 'green']
+- `label` (bool) - show pokemon name
 
 ## Architecture
 
