@@ -44,4 +44,12 @@ storiesOf('Pokemon', module)
             <Pokemon name="charizard" gen="green" />
         </div>
     ))
+    .add('with different pokemons from xy', () => (
+        <div>
+            <Pokemon name="pikachu" />
+            <Pokemon name="charmander" />
+            <Pokemon name="bulbasaur" />
+            <Pokemon name="squirtle" />
+        </div>
+    ))
 
