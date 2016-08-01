@@ -1,6 +1,6 @@
 {
   "name": "lyef-pokemon",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A react component to show any pokemon from different generations.",
   "main": "dist/Main.js",
   "scripts": {
@@ -43,6 +43,7 @@
   "devDependencies": {
     "@kadira/storybook": "^1.38.0",
     "@kadira/storybook-deployer": "^1.0.0",
+    "@personare/react-storybook-decorator-github-corner": "^0.1.4",
     "assert-equal-jsx": "^1.0.3",
     "babel-cli": "^6.11.4",
     "babel-core": "^6.10.4",
