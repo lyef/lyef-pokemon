@@ -37,7 +37,7 @@ render() {
 ## Props
 
 - `name` (string) - pokemon name - *required*
-- `gen` (string) - generation ['xy', 'black-white', 'diamond-pearl', 'emerald', 'silver', 'green']
+- `gen` (string) - generation ['sun-moon', 'xy', 'black-white', 'diamond-pearl', 'emerald', 'silver', 'green'] - *defaults to `xy`*
 - `label` (bool) - show pokemon name
 
 ## Architecture
