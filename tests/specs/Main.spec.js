@@ -35,9 +35,19 @@ describe('Pokemon', () => {
         expect(wrapper.find('img').props().src.includes('.gif')).to.equal(true);
     });
 
-    it('should get png image when different than xy gen', () => {
+    it('should get gif image when sun-moon gen', () => {
+        const wrapper = shallow(<Pokemon name="rowlet" gen="sun-moon" />);
+        expect(wrapper.find('img').props().src.includes('.gif')).to.equal(true);
+    });
+
+    it('should get png image when gen is different than xy or sun-moon', () => {
         const wrapper = shallow(<Pokemon name="pikachu" gen="black-white" />);
         expect(wrapper.find('img').props().src.includes('.png')).to.equal(true);
+    });
+
+    it('should get image from sun-moon gen if gen passed', () => {
+        const wrapper = shallow(<Pokemon name="litten" gen="sun-moon" />);
+        expect(wrapper.find('img').props().src.includes('/sol-luna/')).to.equal(true);
     });
 
     it('should get image from black-white gen if gen passed', () => {
