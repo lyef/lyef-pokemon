@@ -4,7 +4,6 @@ import { shallow } from 'enzyme';
 import Pokemon from '../../src/Main';
 
 describe('Pokemon', () => {
-
     it('should have props for name', () => {
         const wrapper = shallow(<Pokemon name="pikachu" />);
         expect(wrapper.props().name).to.be.defined;
@@ -17,12 +16,7 @@ describe('Pokemon', () => {
 
     it('should have an p element if label passed', () => {
         const wrapper = shallow(<Pokemon name="pikachu" label />);
-        expect(wrapper.find('img')).to.have.length(1);
-    });
-
-    it('should have an image element', () => {
-        const wrapper = shallow(<Pokemon name="pikachu" />);
-        expect(wrapper.find('img')).to.have.length(1);
+        expect(wrapper.find('p')).to.have.length(1);
     });
 
     it('should get image from xy gen if gen not passed', () => {
