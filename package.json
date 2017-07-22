@@ -1,6 +1,6 @@
 {
   "name": "lyef-pokemon",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "A react component to show any pokemon from different generations.",
   "main": "dist/Main.js",
   "scripts": {
@@ -49,6 +49,7 @@
     "babel-core": "^6.25.0",
     "babel-loader": "^6.4.1",
     "babel-preset-airbnb": "^2.4.0",
+    "babel-register": "^6.24.1",
     "chai": "^3.5.0",
     "enzyme": "^2.9.1",
     "eslint": "^2.13.1",
