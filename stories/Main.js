@@ -1,6 +1,6 @@
 import React from 'react';
 import Pokemon from '../src/Main'; // This is our component
-import { storiesOf } from '@kadira/storybook';
+import { storiesOf } from '@storybook/react';
 
 storiesOf('Pokemon', module)
     .add('pikachu without gen passed', () => (
